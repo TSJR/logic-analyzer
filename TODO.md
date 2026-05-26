@@ -19,11 +19,6 @@
     - [ ] design new 64x8 memory subsystem based on new design
 - analyzer_74xx.circ
     - [ ] design 74xx 64x8 memory subsystem 
-### pcb/
-- 
-
 
 ## Completed
-### docs/
 - [x] add memory subsystem to architecture.md (5/27)
-- [x] upload 

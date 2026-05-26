@@ -5,7 +5,7 @@
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-const uint8_t dataPin = 1   // phys pin 6
+const uint8_t dataPin = 1;   // phys pin 6
 const uint8_t clockPin = 3; // phys pin 2
 const uint8_t latchPin = 4; // phys pin 3
 

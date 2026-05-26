@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "8x8dotmat") (type "KiCad") (uri "/Users/geraldnegvesky/Downloads/kicad-LED_DotMatrix-main/lib_fp") (options "") (descr ""))
+)

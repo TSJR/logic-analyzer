@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.0*%
+%TF.CreationDate,2026-04-23T01:13:24-04:00*%
+%TF.ProjectId,Logic Analyzer MK2,4c6f6769-6320-4416-9e61-6c797a657220,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.0) date 2026-04-23 01:13:24*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X37592000Y-27432000D02*
+X87884000Y-27432000D01*
+X87884000Y-107696000D01*
+X37592000Y-107696000D01*
+X37592000Y-27432000D01*
+M02*

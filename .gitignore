@@ -1,0 +1,9 @@
+.DS_Store
+.git/
+.history/
+./pcb/*/*-backups/
+.gbr
+.zip
+.gbrjob
+*.drl
+*.kicad*

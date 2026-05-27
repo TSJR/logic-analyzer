@@ -17,16 +17,16 @@
 - **Data In**: 8 channels of target device
 - **GND**: common ground between analyzer and target device
 ### System Controls
-- **RUN** (active high): enable write mode 
-- **HLT** (active high): enable read mode
-- **HLT Word EN** (active high): enables word-based halting 
+- **RUN** (active LOW): enables write mode 
+- **HLT** (active HIGH): enables read mode
+- **HLT Word EN** (active HIGH): enables word-based halting 
 - **HLT Word**: defines 8-bit input where the analyzer should halt
 ## Example Usage
 1. **HLT Word EN** is tied low to disable word-based halting
 2. **CLK**, **Data In**, and **GND** are connected to target device
-3. **RUN** is briefly pulled high, putting analyzer into write mode
+3. **RUN** is briefly pulled LOW, putting analyzer into write mode
 4. On each clock pulse, data from the target device is saved to the **Memory Subsystem**
-5. **HLT** is briefly pulled high, putting the analyzer into read mode
+5. **HLT** is briefly pulled HIGH, putting the analyzer into read mode
 6. The **Display Subsystem** addresses data from the **Memory Subsystem** and displays it on LED matrices
 
 ## Memory Subsystem Architecture
@@ -65,7 +65,7 @@ Each unit is constructed with:
 - 1 octal tri-state buffer
 Total of 16 samples with 8 bits of data per unit
 
-Decoder chip uses upper 2 address bits to select active RAM unit
+Demultiplexer chip uses upper 2 address bits to select active RAM unit (both both RAM and buffer side)
 
 All tri-state buffer outputs connect forming the data bus. Since the `74189` chip has inverted outputs, the bus must be negated with hex inverters before becoming **Data Out**
 ___
@@ -85,7 +85,7 @@ ___
 Two operations per clock cycle during write mode
 - On rising edge, data is written to RAM
 - On falling edge, internal counter is incremented
-Decoder selection gates clock pulse so **Data In** is only written to the selected RAM unit
+**Data In** is only written to the demultiplexer's selected RAM unit
 
 Clock is ignored in read mode as memory contents are to be accessed asyncronously
 ___

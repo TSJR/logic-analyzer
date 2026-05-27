@@ -8,10 +8,11 @@ Ben Eater's design of 555 timer-based clock module was used for incrementing the
 
 Note: A `74LS138` was used as the demultiplexer since it was what was on hand, but it uses active low signalling so it effectively selects 7 columns at once. Its outputs were negated with 2 `74LS14` chips. A `74LS238` (active high) will be used in the future to improve the design.
 
+___
 ### 8x8 Dot Matrix Driver
 ![Dot matrix driver](../images/build-progress/prog1.png)
 
-### Used Components
+### Components
 - 1 `UD2981` (high-side  driver)
 - 1 `ULN2803` (low-side driver)
 - 1 `74LS138` (3-8 demulitplexer) 
@@ -35,12 +36,13 @@ Built 16x8 memory subsystem laid out in [simulation](../simulations/analyzer_740
 
 **Potential design change**: D flip-flop might be completely unnecessary. Though in the original design it made for sample buffering (sampled data on the clock pulse when analyzer was halted), this may be removed entirely. It would make the system significantly more simple, and it makes sense to limit the number of samples given the already limited 64 sample memory.
 
-**Design change updates will be reflected in the simulation soon.**
+**Design change updates will be reflected in the simulation ASAP**
 
+___
 ### 16x8 Memory Subsystem
 ![16x8 memory subsystem](../images/build-progress/prog2.png)
 
-### Used Components
+### Components
 - 2 `74189` (RAM)
 - 1 `74LS157` (4x 2-1 multiplexer)
 - 1 `74LS161` (binary counter)
@@ -50,6 +52,7 @@ Built 16x8 memory subsystem laid out in [simulation](../simulations/analyzer_740
 
 After the memory subsystem was finished, it was connected to the matrix driver for a quick test. Its behavior was quite unpredictable, likely due to button debouncing and the edge detection circuit.
 
+___
 ### 16x8 Memory Subsystem with Matrix Driver
 ![16x8 memory subsystem w/ matrix driver](../images/build-progress/prog3.png)
 

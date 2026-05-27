@@ -2,8 +2,8 @@
 .git/
 .history/
 ./pcb/*/*-backups/
-.gbr
-.zip
-.gbrjob
+*.gbr
+*.zip
+*.gbrjob
 *.drl
 *.kicad*

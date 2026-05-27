@@ -6,4 +6,6 @@
 *.zip
 *.gbrjob
 *.drl
-*.kicad*
+*.kicad_prl
+fp-lib-table
+sym-lib-table

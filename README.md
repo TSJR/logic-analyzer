@@ -1,0 +1,69 @@
+# TTL Logic Analyzer
+
+Breadboard and PCB-based logic analyzer built from discrete 74xx TTL logic, SRAM, and multiplexed LED matrix displays.
+
+## Overview
+This project aims to build a fully discrete logic analyzer without using a microcontroller. The analyzer captures digital bus states into SRAM and displays captured samples on multiplexed LED matrices.
+
+Project is currently in a state of active prototyping.
+
+![Current prototype](images/build-progress/prog3.png)
+
+## Features
+- Fully TTL-based architecture
+- SRAM-based sample capture
+- Multiplexed LED matrix display
+- External/internal clock modes
+- Planned trigger and halt functionality
+- Modular PCB-based design
+
+## Current Status
+Current prototype supports:
+- 16x8 sample memory subsystem
+- LED matrix display driver
+- Breadboard proof-of-concept testing
+
+Known issues:
+- Breadboard noise/signal integrity
+- Clock edge instability
+- Limited memory
+
+## Architecture
+Main subsystems:
+- Capture memory subsystem
+- Address/control logic
+- Clock generation and edge conditioning
+- Display subsystem
+
+More detailed documentation:
+- [Analyzer Architecture](docs/architecture.md)
+- [Build Log](docs/build-log.md)
+
+## Repository Structure
+```text
+docs/           Documentation and architecture notes
+images/         Build photos and diagrams
+pcb/            KiCad PCB projects
+simulations/    Logisim simulations
+```
+
+## Hardware
+Main IC families/components:
+- 74xx logic family chips
+- ULN2803 and UDN2981
+
+## Future Plans
+- Expand memory depth
+- Modular memory pcb
+- Trigger logic
+- Improved clock conditioning
+- PCB-based final implementation
+
+If the project expands beyond basic TTL hardware, plans may include
+- USB interface
+- OLED display
+- Many more channels
+- Higher sampling rate 
+
+## License
+MIT License

@@ -7,6 +7,8 @@ This project aims to build a fully discrete logic analyzer without using a micro
 
 Project is currently in a state of active prototyping.
 
+*This repository also contains a [closely related project](attiny-logic-analyzer) using an MCU-based design with 24 channels. 
+
 ![Current prototype](images/build-progress/prog3.png)
 
 ## Features
@@ -51,10 +53,11 @@ More detailed documentation:
 
 ## Repository Structure
 ```text
-docs/           Documentation and architecture notes
-images/         Build photos and diagrams
-pcb/            KiCad PCB projects
-simulations/    Logisim simulations
+docs/                   Docs and architecture notes
+images/                 Build photos and diagrams
+pcb/                    KiCad PCB projects
+simulations/            Logisim simulations
+attiny-logic-analyzer/   Related MCU-based project
 ```
 
 ## Hardware

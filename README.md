@@ -9,7 +9,7 @@ Project is currently in a state of active prototyping.
 
 *This repository also contains a [closely related project](attiny-logic-analyzer) using an MCU-based design with 24 channels. 
 
-![Current prototype](images/build-progress/prog3.png)
+![Current prototype](images/build-progress/prog4.png)
 
 ## Features
 - Fully TTL-based architecture
@@ -21,7 +21,7 @@ Project is currently in a state of active prototyping.
 
 ## Current Status
 Current prototype supports:
-- 16x8 sample memory subsystem
+- 64ish x 8 sample memory subsystem
 - LED matrix display driver
 - Breadboard proof-of-concept testing
 

@@ -86,6 +86,28 @@ Data was not correctly written to the RAM. Data should have been written when in
 Unsure what the cause of either issue is. Going to debug with a multimeter in coming days.
 
 ## 6/5
-Debugged memory subsystem. Completely rewired RAM unit.
+Debugged memory subsystem:
+- Completely rewired RAM unit so only one RAM chip is connected to the system
+- Replaced RAM inputs so they're hardcoded with jumper wires
+- Confirmed `74189` chips work as expected (write when CS and WE are low)
+- Used multimeter to check `74LS157` chips: found 5k resistors were too high -> replaced with 1k resistors -> fixed!
+- Used multimeter to check outputs (side B) of `74LS245`: no output
+- Hardcoded inputs (side A) of `74LS245`: found still no output
+- RAM chips were fine: problem was the `74LS245`: pin 1 (`DIR`) was low but should have been high -> swapped jumper cable position -> fixed!
+
+## New Ideas
+- Give option for input clock being on rising edge too
+- It's possible that when analyzer a target system, the channels will not register the highs and lows correctly (eg target system's high state is too low for the 74xx chip inputs): may need to use a sort of amplifier, or maybe PUD resistors will suffice
+
+___
+### 64x8 Memory Subsystem
+![64x8 memory subsystem](../images/build-progress/prog4.png)
+
+### Results/Future
+- Rewire disconnected RAM chip
+- Rewire RAM inputs for testing
+- Add word-based halting (comparators and quad input and gate)
+- Thoroughly test entire circuit including tests with different clocks
+- Build display subsystem
 
 

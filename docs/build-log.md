@@ -110,4 +110,18 @@ ___
 - Thoroughly test entire circuit including tests with different clocks
 - Build display subsystem
 
+## 6/7
+Polished 64x8 memory subsystem to prepare it for testing
+- Rewired RAM
+- Added 8 bit DIP switch
+- Added buttons for **HLT** and **RUN**
+- Rewired incorrect RAM outputs (bit order was flipped on several pins)
 
+### Results/Future
+- Tests went well: 
+    - Memory is written to RAM units during write mode as expected
+    - Memory is being read from bus during read mode as expected
+- Add hardware for **HLT Word** (comparators)
+- Add word-based halting
+- Build display subsystem
+- Rigorous testing

@@ -91,7 +91,7 @@ Clock is ignored in read mode as memory contents are to be accessed asyncronousl
 ___
 ### Halting Modes
 - Word-based Halting
-    - Enters read mode when **Data In** matches user-defined 8-bit sequence **HLT Word**. Mode is only available when **HLT Word EN** is tied high
+    - Enters read mode when **Data In** matches user-defined 8-bit sequence **HLT Word** on clock pulse. Mode is only available when **HLT Word EN** is tied high
 - Manual Halting
   - Enters read mode when **HLT** is pulled high
   - Available regardless of **HLT Word EN**'s state.

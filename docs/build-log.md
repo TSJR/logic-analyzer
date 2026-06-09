@@ -100,7 +100,7 @@ Debugged memory subsystem:
 - It's possible that when analyzer a target system, the channels will not register the highs and lows correctly (eg target system's high state is too low for the 74xx chip inputs): may need to use a sort of amplifier, or maybe PUD resistors will suffice
 
 ___
-### 64x8 Memory Subsystem
+### 64x8 Memory Subsystem (w/o **HLT Word**)
 ![64x8 memory subsystem](../images/build-progress/prog4.png)
 
 ### Results/Future
@@ -132,3 +132,28 @@ Added hardware for **HLT Word** matching the [simulation](../simulations/analyze
 This improvement introduced a major timing bug. When a clock pulse occurred while the halt word was detected, the 74LS279 SR latch immediately reset, placing the system into read mode. Because the RAM write-enable (/WE) signal was still active for a short period due to propagation delay through the control logic, the address multiplexer switched to the external read address (0000) before write mode was fully disabled. As a result, memory address 0000 was unintentionally overwritten with the **HLT Word**.
 
 The issue was resolved by directly gating the halt signal into the RAM write-enable logic, ensuring that halt detection immediately forced /WE inactive before any control-state transitions could occur.
+
+Built a sample target device with an ATtiny85 and a `74LS595` shift register. Tested writing values up to speeds of 10ms low clock pulses. When testing with an external devices, a few problems showed up:
+- When clock is floating the the analyzer is in read mode, it starts writing nonsense memory rapidly
+- If **Data In** is not explicity set, unpredictable values are written to memory
+
+These problems would make the analyzer incredibly painful to use. Issues were fixed with 10k resistors: one resistor tie clock input high while 8 tie **Data In** low by default. It's important to note that the clock still goes through a `74LS14` NOT gate/Schmitt trigger for cleanup. 
+
+**Potential problem:** If user wants less than 64 samples, garbage RAM data remains. 2B1S solution:
+- Make final used RAM address accessable to display subsystem
+- Block horizontal scrolling past last used RAM address (problem for carousaled data)
+- Allows display to end at final sample to avoid unecessary scrolling
+
+Limitations:
+- Assumes user takes at least 32 samples
+- Requires automatical halting after 64 samples
+- May have to build a separate circuit for clearing all 64 memory spaces
+___
+### 64x8 Memory Subsystem
+![64x8 memory subsystem](../images/build-progress/prog5.png)
+
+### Results/Future
+- Resistor/Schmitt trigger combo seem to fix floating problems
+- Analyzer works are (relatively) high clock pulses
+- Build display subsystem
+- Design PCB schematic for memory subsystem

@@ -9,7 +9,7 @@ Project is currently in a state of active prototyping.
 
 *This repository also contains a [closely related project](attiny-logic-analyzer) using an MCU-based design with 24 channels. 
 
-![Current prototype](images/build-progress/prog4.png)
+![Current prototype](images/build-progress/prog5.png)
 
 ## Features
 - Fully TTL-based architecture

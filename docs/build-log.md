@@ -125,3 +125,10 @@ Polished 64x8 memory subsystem to prepare it for testing
 - Add word-based halting
 - Build display subsystem
 - Rigorous testing
+
+## 6/8
+Added hardware for **HLT Word** matching the [simulation](../simulations/analyzer_7400.circ) with a key change: pin 10 of the `74LS21` quad input AND gate was tied to the inverted clock signal. This way, the system is only halted on a clock pulse. 
+
+This improvement introduced a major timing bug. When a clock pulse occurred while the halt word was detected, the 74LS279 SR latch immediately reset, placing the system into read mode. Because the RAM write-enable (/WE) signal was still active for a short period due to propagation delay through the control logic, the address multiplexer switched to the external read address (0000) before write mode was fully disabled. As a result, memory address 0000 was unintentionally overwritten with the **HLT Word**.
+
+The issue was resolved by directly gating the halt signal into the RAM write-enable logic, ensuring that halt detection immediately forced /WE inactive before any control-state transitions could occur.

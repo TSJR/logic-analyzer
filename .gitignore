@@ -1,11 +1,11 @@
 .DS_Store
 .git/
 .history/
-./pcb/*/*-backups/
+*-backups/
 *.gbr
 *.zip
 *.gbrjob
 *.drl
 *.kicad_prl
-fp-lib-table
-sym-lib-table
+*.lck
+*.bak

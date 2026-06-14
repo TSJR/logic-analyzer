@@ -1,0 +1,402 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "eef9c2f8-b48e-448a-907d-9c9f187d4399")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 97.79 49.53)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "20722719-376c-42ed-8e25-4d34ed36c5bc")
+		(property "Sheetname" "Ram Unit1"
+			(at 97.79 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RAM_unit.kicad_sch"
+			(at 97.79 62.8146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Addr[0..3]" input
+			(at 97.79 59.69 180)
+			(uuid "3e0395f5-2409-469f-b713-6b34f863aee4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Din[0..7]" input
+			(at 97.79 57.15 180)
+			(uuid "96ac20a5-d9a6-4fb3-a3c4-09fe5328c444")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS" input
+			(at 97.79 52.07 180)
+			(uuid "45bd58ce-d53c-49c0-a587-9e94b76fc923")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WE" input
+			(at 97.79 54.61 180)
+			(uuid "9f5d2ff0-2e03-45af-82ae-7d946060d142")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out[0..7]" input
+			(at 119.38 52.07 0)
+			(uuid "78c416bb-661b-4931-85b8-999352dce4a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 26.67)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7681efea-75da-45e2-a65e-85a008f87d4d")
+		(property "Sheetname" "Ram Unit"
+			(at 97.79 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RAM_unit.kicad_sch"
+			(at 97.79 39.9546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Addr[0..3]" input
+			(at 97.79 36.83 180)
+			(uuid "ac45500e-c5ff-4ae9-9b37-6ebe16f322bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Din[0..7]" input
+			(at 97.79 34.29 180)
+			(uuid "044113db-88fa-4a49-b87b-dab09023b708")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS" input
+			(at 97.79 29.21 180)
+			(uuid "5b6c5156-c59b-474d-b696-b9362b84c66b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WE" input
+			(at 97.79 31.75 180)
+			(uuid "a3ab6a24-97c3-4428-bbfa-333188e97f40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out[0..7]" input
+			(at 119.38 29.21 0)
+			(uuid "8a806746-b571-4793-a189-05c11da8df65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 100.33)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "884f1d4b-a13d-45f4-ae27-686e2cd6f4b1")
+		(property "Sheetname" "Ram Unit3"
+			(at 97.79 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RAM_unit.kicad_sch"
+			(at 97.79 113.6146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Addr[0..3]" input
+			(at 97.79 110.49 180)
+			(uuid "005505c2-421c-4f6a-9cb2-9050423f8e63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Din[0..7]" input
+			(at 97.79 107.95 180)
+			(uuid "9566f29b-c14c-4c45-99b7-60ecac87eb5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS" input
+			(at 97.79 102.87 180)
+			(uuid "239a0eab-ac16-4e07-b4a2-28e84489c4c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WE" input
+			(at 97.79 105.41 180)
+			(uuid "abf4bf4a-d023-496e-8ebf-3021621b5ae6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out[0..7]" input
+			(at 119.38 102.87 0)
+			(uuid "f8c1c9f2-797c-4279-aa37-366dfa7d8018")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 74.93)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bc9c4980-dc99-4eef-99f9-41840ecf8838")
+		(property "Sheetname" "Ram Unit2"
+			(at 97.79 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RAM_unit.kicad_sch"
+			(at 97.79 88.2146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Addr[0..3]" input
+			(at 97.79 85.09 180)
+			(uuid "eb143074-1cb0-4975-addf-17aac1111a60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Din[0..7]" input
+			(at 97.79 82.55 180)
+			(uuid "93ec0981-d72f-4115-9c6a-5db4021da438")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS" input
+			(at 97.79 77.47 180)
+			(uuid "fe3b452d-999e-4712-a93b-fc52ab4b8ff5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WE" input
+			(at 97.79 80.01 180)
+			(uuid "caa7d12c-82a3-4eba-8784-ac37f380a19b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out[0..7]" input
+			(at 119.38 77.47 0)
+			(uuid "5dea0258-0d1a-4374-a555-6125dc74d719")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

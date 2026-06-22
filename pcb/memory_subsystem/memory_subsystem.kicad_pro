@@ -244,7 +244,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|863600|469900|82f671fe-2dd7-4bd0-b4b9-d11bf25897e2|00000000-0000-0000-0000-000000000000|/eef9c2f8-b48e-448a-907d-9c9f187d4399/7681efea-75da-45e2-a65e-85a008f87d4d|/eef9c2f8-b48e-448a-907d-9c9f187d4399/7681efea-75da-45e2-a65e-85a008f87d4d|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|863600|927100|93224b11-2b21-41ef-8ce8-2b1e8bbd2d97|00000000-0000-0000-0000-000000000000|/eef9c2f8-b48e-448a-907d-9c9f187d4399/7681efea-75da-45e2-a65e-85a008f87d4d|/eef9c2f8-b48e-448a-907d-9c9f187d4399/7681efea-75da-45e2-a65e-85a008f87d4d|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -472,7 +481,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "main.kicad_pro",
+    "filename": "memory_subsystem.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -582,12 +591,24 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -627,12 +648,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "main.kicad_sch",
+        "filename": "memory_subsystem.kicad_sch",
         "name": "Root",
         "uuid": "eef9c2f8-b48e-448a-907d-9c9f187d4399"
       }
     ],
-    "used_designators": "C1-12,U1-12,#PWR1-44",
+    "used_designators": "SW1-4,U1-27,R1-20,#PWR1-119,C1-24,J1-5",
     "variants": []
   },
   "sheets": [
@@ -642,19 +663,31 @@
     ],
     [
       "7681efea-75da-45e2-a65e-85a008f87d4d",
-      "Ram Unit"
-    ],
-    [
-      "20722719-376c-42ed-8e25-4d34ed36c5bc",
       "Ram Unit1"
     ],
     [
-      "bc9c4980-dc99-4eef-99f9-41840ecf8838",
+      "055dda53-f56b-4db5-99fe-ad7f9a06bec9",
       "Ram Unit2"
     ],
     [
-      "884f1d4b-a13d-45f4-ae27-686e2cd6f4b1",
+      "ed633529-ad37-432a-9a64-2eb26cef90db",
       "Ram Unit3"
+    ],
+    [
+      "36e78973-e54d-486d-8910-247acbaf4f9a",
+      "Ram Unit4"
+    ],
+    [
+      "0e3afb8d-ff36-40e0-a62f-b04d75fffb8c",
+      "Word Comparator"
+    ],
+    [
+      "daf0c88b-0c46-4bf0-93d4-0ff0fe2f5558",
+      "Address Selector"
+    ],
+    [
+      "fe785a8a-610e-4397-817f-14d493c6dbad",
+      "Control Logic"
     ]
   ],
   "text_variables": {},

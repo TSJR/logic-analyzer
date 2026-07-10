@@ -1553,11 +1553,11 @@
 		(uuid "298dda53-1e2d-4b31-b0d8-3f858cd5d134")
 	)
 	(no_connect
-		(at 148.59 102.235)
+		(at 148.59 100.33)
 		(uuid "2994be5c-3e02-4a47-aa3d-1ff3e74f7ebd")
 	)
 	(no_connect
-		(at 148.59 94.615)
+		(at 148.59 92.71)
 		(uuid "49671d48-cd41-47ca-8526-2045e2fc1f00")
 	)
 	(no_connect
@@ -1565,11 +1565,11 @@
 		(uuid "732f28fb-315f-4d6a-a4ce-0aa4cdc1c7df")
 	)
 	(no_connect
-		(at 148.59 99.695)
+		(at 148.59 97.79)
 		(uuid "861d53ff-f1fc-472c-9099-6d4f13aa463e")
 	)
 	(no_connect
-		(at 163.83 98.425)
+		(at 163.83 96.52)
 		(uuid "88f9d707-bb64-4035-b981-29b132b373fa")
 	)
 	(no_connect
@@ -1577,7 +1577,7 @@
 		(uuid "8bc16d42-724a-4bd0-8a31-e4ebdd8ed638")
 	)
 	(no_connect
-		(at 148.59 97.155)
+		(at 148.59 95.25)
 		(uuid "b064b1c9-ccc7-4e61-8e53-81e8b995a002")
 	)
 	(bus_entry
@@ -2331,7 +2331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "038ed478-370e-4fa5-8a19-3398a69d093f")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR061"
 			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2391,7 +2391,7 @@
 		(instances
 			(project "memory_subsystem"
 				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399/0e3afb8d-ff36-40e0-a62f-b04d75fffb8c"
-					(reference "#PWR063")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2409,7 +2409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08189c86-1e87-4724-abbd-97daef1950fd")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR065"
 			(at 147.32 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -2469,7 +2469,7 @@
 		(instances
 			(project "memory_subsystem"
 				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399/0e3afb8d-ff36-40e0-a62f-b04d75fffb8c"
-					(reference "#PWR067")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -2487,7 +2487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12825eb5-163a-406f-9536-637cd653b2c2")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR060"
 			(at 118.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -2547,7 +2547,7 @@
 		(instances
 			(project "memory_subsystem"
 				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399/0e3afb8d-ff36-40e0-a62f-b04d75fffb8c"
-					(reference "#PWR062")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2677,7 +2677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23931b0b-6e8d-4b74-aa9f-0ea91a0e9428")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR067"
 			(at 154.94 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -2737,7 +2737,7 @@
 		(instances
 			(project "memory_subsystem"
 				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399/0e3afb8d-ff36-40e0-a62f-b04d75fffb8c"
-					(reference "#PWR069")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -2755,7 +2755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cffa003-935b-4eb2-9434-9a72aa4f9557")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR053"
 			(at 45.72 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2815,7 +2815,7 @@
 		(instances
 			(project "memory_subsystem"
 				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399/0e3afb8d-ff36-40e0-a62f-b04d75fffb8c"
-					(reference "#PWR055")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2833,7 +2833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "541b6327-f5f0-4017-bd55-83ae9cadbe48")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR054"
 			(at 53.34 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -2893,7 +2893,7 @@
 		(instances
 			(project "memory_subsystem"
 				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399/0e3afb8d-ff36-40e0-a62f-b04d75fffb8c"
-					(reference "#PWR056")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3035,7 +3035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67d71b52-8639-4622-bcb9-4b0155cdb1d4")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR059"
 			(at 110.49 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3095,7 +3095,7 @@
 		(instances
 			(project "memory_subsystem"
 				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399/0e3afb8d-ff36-40e0-a62f-b04d75fffb8c"
-					(reference "#PWR061")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3103,7 +3103,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS21")
-		(at 156.21 98.425 0)
+		(at 156.21 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3114,7 +3114,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f39a3b2-98e3-4352-9c0a-5c6ef771b37d")
 		(property "Reference" "U15"
-			(at 156.2003 89.535 0)
+			(at 156.2003 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3124,7 +3124,7 @@
 			)
 		)
 		(property "Value" "74LS21"
-			(at 156.2003 92.075 0)
+			(at 156.2003 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3134,7 +3134,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 156.21 98.425 0)
+			(at 156.21 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3145,7 +3145,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS21"
-			(at 156.21 98.425 0)
+			(at 156.21 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3156,7 +3156,7 @@
 			)
 		)
 		(property "Description" "Dual 4-input AND"
-			(at 156.21 98.425 0)
+			(at 156.21 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3223,7 +3223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ae1de8a-fe19-49bb-b169-f35755e8646b")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR056"
 			(at 72.39 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3284,7 +3284,7 @@
 		(instances
 			(project "memory_subsystem"
 				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399/0e3afb8d-ff36-40e0-a62f-b04d75fffb8c"
-					(reference "#PWR058")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3382,7 +3382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9974ad79-b260-4046-8d2d-def42c704b75")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR064"
 			(at 127 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3443,7 +3443,7 @@
 		(instances
 			(project "memory_subsystem"
 				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399/0e3afb8d-ff36-40e0-a62f-b04d75fffb8c"
-					(reference "#PWR066")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3461,7 +3461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5c04dc6-5092-41b6-bcc1-71794c5bc60c")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR063"
 			(at 137.16 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3522,7 +3522,7 @@
 		(instances
 			(project "memory_subsystem"
 				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399/0e3afb8d-ff36-40e0-a62f-b04d75fffb8c"
-					(reference "#PWR065")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3594,13 +3594,13 @@
 			)
 		)
 		(pin "6"
-			(uuid "1d7ddc77-e998-4c95-b886-fecd08be3c90")
+			(uuid "1d7ddc77-e998-4c95-b886-fecd08be3c91")
 		)
 		(pin "12"
 			(uuid "932ae99d-d1c3-4ed0-bd95-139961e6eb62")
 		)
 		(pin "4"
-			(uuid "1a0010f1-6fc0-42d9-99bb-87167280e4da")
+			(uuid "1a0010f1-6fc0-42d9-99bb-87167280e4db")
 		)
 		(pin "8"
 			(uuid "78a47482-b1f2-411c-9264-e17d7944db75")
@@ -3609,25 +3609,25 @@
 			(uuid "c1293c33-b5b9-4aa4-8552-51a36b48794a")
 		)
 		(pin "2"
-			(uuid "cb3333a2-a49b-45d4-b1da-723062cfa60d")
+			(uuid "cb3333a2-a49b-45d4-b1da-723062cfa60e")
 		)
 		(pin "13"
 			(uuid "c1763020-827c-47ae-ab89-1c9e282b7dc6")
 		)
 		(pin "14"
-			(uuid "7a392187-13cf-4468-8493-6af95c3855b9")
+			(uuid "7a392187-13cf-4468-8493-6af95c3855ba")
 		)
 		(pin "10"
 			(uuid "83e0d59a-9bed-469a-a5d8-74ceafedf8a6")
 		)
 		(pin "1"
-			(uuid "23ce543f-b693-4397-95a9-334305c4c4f0")
+			(uuid "23ce543f-b693-4397-95a9-334305c4c4f1")
 		)
 		(pin "7"
-			(uuid "dd61dd17-66b1-479a-9672-9075b7a31709")
+			(uuid "dd61dd17-66b1-479a-9672-9075b7a3170a")
 		)
 		(pin "5"
-			(uuid "20e23a97-01e5-4457-a427-f06700c66af0")
+			(uuid "20e23a97-01e5-4457-a427-f06700c66af1")
 		)
 		(instances
 			(project "memory_subsystem"
@@ -3650,7 +3650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca256633-5fa0-4a1b-bca9-cabf1d560f41")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR058"
 			(at 62.23 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3711,7 +3711,7 @@
 		(instances
 			(project "memory_subsystem"
 				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399/0e3afb8d-ff36-40e0-a62f-b04d75fffb8c"
-					(reference "#PWR060")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3729,7 +3729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3d80ffb-70e8-4fb5-9cd8-66e944ada065")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR055"
 			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3789,7 +3789,7 @@
 		(instances
 			(project "memory_subsystem"
 				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399/0e3afb8d-ff36-40e0-a62f-b04d75fffb8c"
-					(reference "#PWR057")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3807,7 +3807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daae707a-877d-40c6-a730-30e8cf9fbddb")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR066"
 			(at 154.94 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -3867,7 +3867,7 @@
 		(instances
 			(project "memory_subsystem"
 				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399/0e3afb8d-ff36-40e0-a62f-b04d75fffb8c"
-					(reference "#PWR068")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -3885,7 +3885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfed9749-0b25-4722-af3e-c329eef12762")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR062"
 			(at 137.16 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3946,7 +3946,7 @@
 		(instances
 			(project "memory_subsystem"
 				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399/0e3afb8d-ff36-40e0-a62f-b04d75fffb8c"
-					(reference "#PWR064")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4248,7 +4248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecdbcd40-905d-4049-b08a-771711b3ff78")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR057"
 			(at 72.39 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4309,17 +4309,10 @@
 		(instances
 			(project "memory_subsystem"
 				(path "/eef9c2f8-b48e-448a-907d-9c9f187d4399/0e3afb8d-ff36-40e0-a62f-b04d75fffb8c"
-					(reference "#PWR059")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(group ""
-		(uuid "33c3646e-509c-4c81-b212-f06caea445de")
-		(members "4df121cb-a8d9-47d5-966e-266f92eaff76" "6f39a3b2-98e3-4352-9c0a-5c6ef771b37d"
-			"74de60b2-3b6f-4c4c-9145-51804617dd28" "c663b648-7136-49e1-92e6-b24abaf04bd9"
-			"ce98f19d-a8ce-4f94-99c0-a06bb35c9a9f"
 		)
 	)
 	(group ""

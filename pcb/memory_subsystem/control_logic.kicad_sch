@@ -3458,40 +3458,40 @@
 			(uuid "5c25ff48-c1fe-4bd0-890e-5492dc0d80bf")
 		)
 		(pin "5"
-			(uuid "6545d8ec-53c6-4db0-82e7-f644c14a92c5")
+			(uuid "6545d8ec-53c6-4db0-82e7-f644c14a92c6")
 		)
 		(pin "1"
-			(uuid "2fe45acb-6bb3-4f23-b1b4-a745032ea334")
+			(uuid "2fe45acb-6bb3-4f23-b1b4-a745032ea335")
 		)
 		(pin "12"
-			(uuid "205145ff-936f-4366-9e0d-e4e195fd8e76")
+			(uuid "205145ff-936f-4366-9e0d-e4e195fd8e77")
 		)
 		(pin "4"
-			(uuid "1b9e7977-475f-46eb-b3ae-65e03dcc5c3f")
+			(uuid "1b9e7977-475f-46eb-b3ae-65e03dcc5c40")
 		)
 		(pin "6"
-			(uuid "27a16d93-d7ed-4e7e-bca8-8925cd121b22")
+			(uuid "27a16d93-d7ed-4e7e-bca8-8925cd121b23")
 		)
 		(pin "14"
-			(uuid "dd53b244-e81e-4ef5-9515-932fa3e3af8c")
+			(uuid "dd53b244-e81e-4ef5-9515-932fa3e3af8d")
 		)
 		(pin "3"
-			(uuid "dc9f0838-c948-4e19-bfde-7bd67eabe6f4")
+			(uuid "dc9f0838-c948-4e19-bfde-7bd67eabe6f5")
 		)
 		(pin "11"
-			(uuid "bbde55eb-2924-4196-80c1-9f9b88051d85")
+			(uuid "bbde55eb-2924-4196-80c1-9f9b88051d86")
 		)
 		(pin "7"
-			(uuid "0f314280-d30b-49f7-9a0d-8a9817dca30e")
+			(uuid "0f314280-d30b-49f7-9a0d-8a9817dca30f")
 		)
 		(pin "13"
-			(uuid "5063a756-79d2-453a-8c03-e5ef757f59a2")
+			(uuid "5063a756-79d2-453a-8c03-e5ef757f59a3")
 		)
 		(pin "2"
-			(uuid "2ac79554-8e30-4f95-961c-284563f3208f")
+			(uuid "2ac79554-8e30-4f95-961c-284563f32090")
 		)
 		(pin "10"
-			(uuid "8faf61d3-d467-43d9-b2d2-2551d60f717c")
+			(uuid "8faf61d3-d467-43d9-b2d2-2551d60f717d")
 		)
 		(instances
 			(project "memory_subsystem"
@@ -3736,7 +3736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 147.32 18.0848 0)
 			(hide yes)
 			(show_name no)
@@ -4376,7 +4376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 106.68 18.0848 0)
 			(hide yes)
 			(show_name no)
@@ -5514,40 +5514,40 @@
 			(uuid "63e8c25d-6400-4076-9d18-cd875ff1c561")
 		)
 		(pin "5"
-			(uuid "6545d8ec-53c6-4db0-82e7-f644c14a92c5")
+			(uuid "6545d8ec-53c6-4db0-82e7-f644c14a92c7")
 		)
 		(pin "1"
-			(uuid "2fe45acb-6bb3-4f23-b1b4-a745032ea334")
+			(uuid "2fe45acb-6bb3-4f23-b1b4-a745032ea336")
 		)
 		(pin "12"
-			(uuid "205145ff-936f-4366-9e0d-e4e195fd8e76")
+			(uuid "205145ff-936f-4366-9e0d-e4e195fd8e78")
 		)
 		(pin "4"
-			(uuid "1b9e7977-475f-46eb-b3ae-65e03dcc5c3f")
+			(uuid "1b9e7977-475f-46eb-b3ae-65e03dcc5c41")
 		)
 		(pin "6"
-			(uuid "27a16d93-d7ed-4e7e-bca8-8925cd121b22")
+			(uuid "27a16d93-d7ed-4e7e-bca8-8925cd121b24")
 		)
 		(pin "14"
-			(uuid "dd53b244-e81e-4ef5-9515-932fa3e3af8c")
+			(uuid "dd53b244-e81e-4ef5-9515-932fa3e3af8e")
 		)
 		(pin "3"
-			(uuid "dc9f0838-c948-4e19-bfde-7bd67eabe6f4")
+			(uuid "dc9f0838-c948-4e19-bfde-7bd67eabe6f6")
 		)
 		(pin "11"
-			(uuid "bbde55eb-2924-4196-80c1-9f9b88051d85")
+			(uuid "bbde55eb-2924-4196-80c1-9f9b88051d87")
 		)
 		(pin "7"
-			(uuid "0f314280-d30b-49f7-9a0d-8a9817dca30e")
+			(uuid "0f314280-d30b-49f7-9a0d-8a9817dca310")
 		)
 		(pin "13"
-			(uuid "5063a756-79d2-453a-8c03-e5ef757f59a2")
+			(uuid "5063a756-79d2-453a-8c03-e5ef757f59a4")
 		)
 		(pin "2"
-			(uuid "2ac79554-8e30-4f95-961c-284563f3208f")
+			(uuid "2ac79554-8e30-4f95-961c-284563f32091")
 		)
 		(pin "10"
-			(uuid "8faf61d3-d467-43d9-b2d2-2551d60f717c")
+			(uuid "8faf61d3-d467-43d9-b2d2-2551d60f717e")
 		)
 		(instances
 			(project "memory_subsystem"
@@ -5786,40 +5786,40 @@
 			(uuid "19769eb0-4f32-4cd3-968e-3f36020b3182")
 		)
 		(pin "5"
-			(uuid "6545d8ec-53c6-4db0-82e7-f644c14a92c6")
+			(uuid "6545d8ec-53c6-4db0-82e7-f644c14a92c8")
 		)
 		(pin "1"
-			(uuid "2fe45acb-6bb3-4f23-b1b4-a745032ea335")
+			(uuid "2fe45acb-6bb3-4f23-b1b4-a745032ea337")
 		)
 		(pin "12"
-			(uuid "205145ff-936f-4366-9e0d-e4e195fd8e77")
+			(uuid "205145ff-936f-4366-9e0d-e4e195fd8e79")
 		)
 		(pin "4"
 			(uuid "29358069-8d6b-44f9-8ea5-7fa7fa876439")
 		)
 		(pin "6"
-			(uuid "27a16d93-d7ed-4e7e-bca8-8925cd121b23")
+			(uuid "27a16d93-d7ed-4e7e-bca8-8925cd121b25")
 		)
 		(pin "14"
-			(uuid "dd53b244-e81e-4ef5-9515-932fa3e3af8d")
+			(uuid "dd53b244-e81e-4ef5-9515-932fa3e3af8f")
 		)
 		(pin "3"
 			(uuid "bc030192-dbc4-4b03-9edf-832403df78eb")
 		)
 		(pin "11"
-			(uuid "bbde55eb-2924-4196-80c1-9f9b88051d86")
+			(uuid "bbde55eb-2924-4196-80c1-9f9b88051d88")
 		)
 		(pin "7"
-			(uuid "0f314280-d30b-49f7-9a0d-8a9817dca30f")
+			(uuid "0f314280-d30b-49f7-9a0d-8a9817dca311")
 		)
 		(pin "13"
-			(uuid "5063a756-79d2-453a-8c03-e5ef757f59a3")
+			(uuid "5063a756-79d2-453a-8c03-e5ef757f59a5")
 		)
 		(pin "2"
-			(uuid "2ac79554-8e30-4f95-961c-284563f32090")
+			(uuid "2ac79554-8e30-4f95-961c-284563f32092")
 		)
 		(pin "10"
-			(uuid "8faf61d3-d467-43d9-b2d2-2551d60f717d")
+			(uuid "8faf61d3-d467-43d9-b2d2-2551d60f717f")
 		)
 		(instances
 			(project "memory_subsystem"
@@ -5862,7 +5862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 127 18.0848 0)
 			(hide yes)
 			(show_name no)

@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -281,7 +281,7 @@
         ""
       ],
       [
-        "pin_to_pin|1828800|1003300|7ee8825c-e9aa-41ba-962a-1b8029233af9|8e0c6498-c871-4701-a8b3-f73423e007d1|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db",
+        "pin_to_pin|1828800|1003300|7ee8825c-e9aa-41ba-962a-1b8029233af9|8e0c6498-c871-4701-a8b3-f73423e007d1|||",
         ""
       ],
       [
@@ -297,7 +297,7 @@
         ""
       ],
       [
-        "pin_to_pin|1828800|1028700|ecb7b0e6-946e-47c6-ad44-28f8faf3fda2|a7553a66-9e8e-4403-8af5-152dfff22f9d|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db",
+        "pin_to_pin|1828800|1028700|ecb7b0e6-946e-47c6-ad44-28f8faf3fda2|a7553a66-9e8e-4403-8af5-152dfff22f9d|||",
         ""
       ],
       [
@@ -313,7 +313,7 @@
         ""
       ],
       [
-        "pin_to_pin|1828800|1054100|7d2c60bc-a994-4428-9892-cbad486f8f91|1e015ea4-4fdb-463d-a03b-23b7c7591290|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db",
+        "pin_to_pin|1828800|1054100|7d2c60bc-a994-4428-9892-cbad486f8f91|1e015ea4-4fdb-463d-a03b-23b7c7591290|||",
         ""
       ],
       [
@@ -329,7 +329,7 @@
         ""
       ],
       [
-        "pin_to_pin|1828800|1079500|282313fc-081b-453c-8780-28339471501d|c1205208-1be1-46a7-b87e-a6e074c1b2c5|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db",
+        "pin_to_pin|1828800|1079500|282313fc-081b-453c-8780-28339471501d|c1205208-1be1-46a7-b87e-a6e074c1b2c5|||",
         ""
       ],
       [
@@ -345,7 +345,7 @@
         ""
       ],
       [
-        "pin_to_pin|1828800|1104900|00de5e1f-3fbc-4f54-8d7c-ee96dc0a3bc2|e7e19fc9-db72-44d3-bc38-582dd0037b74|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db",
+        "pin_to_pin|1828800|1104900|00de5e1f-3fbc-4f54-8d7c-ee96dc0a3bc2|e7e19fc9-db72-44d3-bc38-582dd0037b74|||",
         ""
       ],
       [
@@ -361,7 +361,7 @@
         ""
       ],
       [
-        "pin_to_pin|1828800|1130300|a4f68e83-aecf-40c5-b489-eb2cca783e0c|39462456-dab1-4151-8f3f-fb65281f97ca|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db",
+        "pin_to_pin|1828800|1130300|a4f68e83-aecf-40c5-b489-eb2cca783e0c|39462456-dab1-4151-8f3f-fb65281f97ca|||",
         ""
       ],
       [
@@ -377,7 +377,7 @@
         ""
       ],
       [
-        "pin_to_pin|1828800|952500|5aad4794-bc5b-4929-89f0-7b8fd0fe376a|0e4b38c4-7e2a-4d35-86b5-2aaf01286e5f|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db",
+        "pin_to_pin|1828800|952500|5aad4794-bc5b-4929-89f0-7b8fd0fe376a|0e4b38c4-7e2a-4d35-86b5-2aaf01286e5f|||",
         ""
       ],
       [
@@ -393,7 +393,7 @@
         ""
       ],
       [
-        "pin_to_pin|1828800|977900|3f95c818-14a4-4baa-8e6e-46498bdf19a1|a01736ef-d19b-4b03-9ef4-67dcfdefb063|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db|/eef9c2f8-b48e-448a-907d-9c9f187d4399/ed633529-ad37-432a-9a64-2eb26cef90db",
+        "pin_to_pin|1828800|977900|3f95c818-14a4-4baa-8e6e-46498bdf19a1|a01736ef-d19b-4b03-9ef4-67dcfdefb063|||",
         ""
       ]
     ],
@@ -796,7 +796,7 @@
         "uuid": "eef9c2f8-b48e-448a-907d-9c9f187d4399"
       }
     ],
-    "used_designators": "R5-20,#PWR3,#PWR8",
+    "used_designators": "J4",
     "variants": []
   },
   "sheets": [
@@ -813,7 +813,7 @@
       "Ram Unit2"
     ],
     [
-      "ed633529-ad37-432a-9a64-2eb26cef90db",
+      "42f51e2d-d8b6-4a94-b1a8-da7d5a86e9c8",
       "Ram Unit3"
     ],
     [
